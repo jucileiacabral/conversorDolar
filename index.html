@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        
+  <meta charset="utf-8">
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+       <title> desafio conversor de moeda  </title>
+    </head>
+    
+    <body>
+    
+    
+        <div class="container">
+                <h1 class="page-title"> Conversor de Dolares U$</h1>
+                <p class="page-subtitle"> Descubra os valores  de Dolares em Reais</p>
+                 <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                 class="page-logo" alt=""></br>
+
+                    <div id="interface"> <a href="https://mercadocotacao.com/dolar-hoje/" id="USD" title="Cotação do Dólar Americano Hoje" name="mercado_cotacao">Dólar Hoje</a>
+                        <script async src="https://mercadocotacao.com/money/mercadocotacao.js"></script>
+
+                        <p> <b> Digite os valores para conversão </b></p>
+
+                        <span>Cotação do Dolar: </span>
+                        <input type="number" id="cotacao"> <br>
+
+                         <span id="br">Valor em Dolar : </span> 
+                        <input type="number" id="dolar"> <br>
+
+                        <span> Total em reais : </span> <br>
+                        <input type="number" name="total" id="total">
+
+                         <button id="enviar">Converter</button><br>
+                    </div>
+
+             <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">  </a>
+        </div>
+        <script  src="script.js"></script>
+    </body>
+   
+</html>
